@@ -1,0 +1,36 @@
+{
+  "maxNoa": 10,
+  "uuSubAppDataStore": {
+    "primary": {
+      "type": "uuAppObjectStore",
+      "realization": "MongoDB",
+      "schemaMap": {
+        "tripmanagerMain": {
+          "realization": "dao/TripmanagerMainMongo"
+        },
+        "trip": {
+          "realization": "dao/TripMongo",
+          "maxNoi": 1000
+        },
+        "participant": {
+          "realization": "dao/ParticipantMongo",
+          "maxNoi": 100000
+        },
+        "location": {
+          "realization": "dao/LocationMongo",
+          "maxNoi": 1000
+        }
+      }
+    },
+    "binary": {
+      "type": "uuAppBinaryStore",
+      "realization": "MongoDB",
+      "schemaMap": {
+        "tripImage": {
+          "realization": "dao/TripImageMongo",
+          "maxNoi": 1000
+        }
+      }
+    }
+  }
+}

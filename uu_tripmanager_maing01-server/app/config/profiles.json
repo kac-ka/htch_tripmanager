@@ -1,0 +1,66 @@
+{
+  "{asid}": {
+    "profileList": ["AsidAuthorities","AsidExecutives","AsidLicenseOwner","Public"],
+    "useCaseMap": {}
+  },
+  "*": {
+    "profileList": ["Authorities","Executives","AwidLicenseOwner","Public","Employees","Readers"],
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "sysStateList": ["created"],
+        "profileList": ["AwidLicenseOwner"]
+      },
+      "defaultUve": {
+        "profileList": ["Public"]
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "sysStateList": ["created"],
+        "profileList": ["Public","AwidLicenseOwner"]
+      },
+      "tripCreate": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Employees"]
+      },
+      "tripImage": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "tripGet": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Employees"]
+      },
+      "tripDelete": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities"]
+      },
+      "participantList": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Employees"]
+      },
+      "participantGet": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Employees"]
+      },
+      "locationGet": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Employees"]
+      },
+      "tripAddParticipant": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Employees"]
+      },
+      "participantUpdate": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Employees"]
+      },
+      "sys/uuAppWorkspace/load": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Employees","Readers"]
+      },
+      "locationList": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Employees"]
+      }
+    }
+  }
+}

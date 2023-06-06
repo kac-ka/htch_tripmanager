@@ -1,0 +1,316 @@
+{
+  "product": "uu_tripmanager_maing01",
+  "version": "0.1.0",
+  "license": "License Commercial",
+  "description": {
+    "en": "",
+    "cs": ""
+  },
+  "devkit": {
+    "development": {
+      "appBoxLocationUri": "----- VALUE REQUIRED -----",
+      "appDeploymentUri": null
+    }
+  },
+  "uu_tripmanager_maing01-hi": {
+    "componentList": [
+      {
+        "code": "UuTripmanager.Routes.Tripmanager",
+        "name": "Tripmanager",
+        "tagList": [
+          "UuTripmanager",
+          "Routes",
+          "Tripmanager"
+        ],
+        "docCode": "UuTripmanagerRoutesTripmanager",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Routes.Tripmanager />"
+      },
+      {
+        "code": "UuTripmanager.Bricks.Trip.TripInfo",
+        "name": "TripInfo",
+        "tagList": [
+          "UuTripmanager",
+          "Bricks",
+          "Trip",
+          "TripInfo"
+        ],
+        "docCode": "UuTripmanagerBricksTripTripInfo",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Bricks.Trip.TripInfo />"
+      },
+      {
+        "code": "UuTripmanager.Context.TripProvider",
+        "name": "TripProvider",
+        "tagList": [
+          "UuTripmanager",
+          "Context",
+          "TripProvider"
+        ],
+        "docCode": "UuTripmanagerContextTripProvider",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Context.TripProvider />"
+      },
+      {
+        "code": "UuTripmanager.Context.ParticipantProvider",
+        "name": "ParticipantProvider",
+        "tagList": [
+          "UuTripmanager",
+          "Context",
+          "ParticipantProvider"
+        ],
+        "docCode": "UuTripmanagerContextParticipantProvider",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Context.ParticipantProvider />"
+      },
+      {
+        "code": "UuTripmanager.Context.LocationProvider",
+        "name": "LocationProvider",
+        "tagList": [
+          "UuTripmanager",
+          "Context",
+          "LocationProvider"
+        ],
+        "docCode": "UuTripmanagerContextLocationProvider",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Context.LocationProvider />"
+      },
+      {
+        "code": "UuTripmanager.Bricks.Trip.TripView",
+        "name": "TripView",
+        "tagList": [
+          "UuTripmanager",
+          "Bricks",
+          "Trip",
+          "TripView"
+        ],
+        "docCode": "UuTripmanagerBricksTripTripView",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Bricks.Trip.TripView />"
+      },
+      {
+        "code": "UuTripmanager.Bricks.Trip.TripContent",
+        "name": "TripContent",
+        "tagList": [
+          "UuTripmanager",
+          "Bricks",
+          "Trip",
+          "TripContent"
+        ],
+        "docCode": "UuTripmanagerBricksTripTripContent",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Bricks.Trip.TripContent />"
+      },
+      {
+        "code": "UuTripmanager.Contex.InitProvider",
+        "name": "InitProvider",
+        "tagList": [
+          "UuTripmanager",
+          "Contex",
+          "InitProvider"
+        ],
+        "docCode": "UuTripmanagerContexInitProvider",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Contex.InitProvider />"
+      },
+      {
+        "code": "UuTripmanager.Context.TripInstanceProvider",
+        "name": "TripInstanceProvider",
+        "tagList": [
+          "UuTripmanager",
+          "Context",
+          "TripInstanceProvider"
+        ],
+        "docCode": "UuTripmanagerContextTripInstanceProvider",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Context.TripInstanceProvider />"
+      },
+      {
+        "code": "UuTripmanager.Context.TripInstanceContex",
+        "name": "TripInstanceContex",
+        "tagList": [
+          "UuTripmanager",
+          "Context",
+          "TripInstanceContex"
+        ],
+        "docCode": "UuTripmanagerContextTripInstanceContex",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Context.TripInstanceContex />"
+      },
+      {
+        "code": "UuTripmanager.Context.LocationlistProvider",
+        "name": "LocationlistProvider",
+        "tagList": [
+          "UuTripmanager",
+          "Context",
+          "LocationlistProvider"
+        ],
+        "docCode": "UuTripmanagerContextLocationlistProvider",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Context.LocationlistProvider />"
+      },
+      {
+        "code": "UuTripmanager.Bricks.Trip.NewTripModal",
+        "name": "NewTripModal",
+        "tagList": [
+          "UuTripmanager",
+          "Bricks",
+          "Trip",
+          "NewTripModal"
+        ],
+        "docCode": "UuTripmanagerBricksTripNewTripModal",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Bricks.Trip.NewTripModal />"
+      },
+      {
+        "code": "UuTripmanager.Bricks.Participant.ParticipantList",
+        "name": "ParticipantList",
+        "tagList": [
+          "UuTripmanager",
+          "Bricks",
+          "Participant",
+          "ParticipantList"
+        ],
+        "docCode": "UuTripmanagerBricksParticipantParticipantList",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Bricks.Participant.ParticipantList />"
+      },
+      {
+        "code": "UuTripmanager.Bricks.Participant.ParticipantListView",
+        "name": "ParticipantListView",
+        "tagList": [
+          "UuTripmanager",
+          "Bricks",
+          "Participant",
+          "ParticipantListView"
+        ],
+        "docCode": "UuTripmanagerBricksParticipantParticipantListView",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Bricks.Participant.ParticipantListView />"
+      },
+      {
+        "code": "UuTripmanager.Bricks.Participant.Content",
+        "name": "Content",
+        "tagList": [
+          "UuTripmanager",
+          "Bricks",
+          "Participant",
+          "Content"
+        ],
+        "docCode": "UuTripmanagerBricksParticipantContent",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Bricks.Participant.Content />"
+      },
+      {
+        "code": "UuTripmanager.Bricks.Participant.Tile",
+        "name": "Tile",
+        "tagList": [
+          "UuTripmanager",
+          "Bricks",
+          "Participant",
+          "Tile"
+        ],
+        "docCode": "UuTripmanagerBricksParticipantTile",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Bricks.Participant.Tile />"
+      },
+      {
+        "code": "UuTripmanager.Bricks.Participant.AddParticipantModal",
+        "name": "AddParticipantModal",
+        "tagList": [
+          "UuTripmanager",
+          "Bricks",
+          "Participant",
+          "AddParticipantModal"
+        ],
+        "docCode": "UuTripmanagerBricksParticipantAddParticipantModal",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Bricks.Participant.AddParticipantModal />"
+      },
+      {
+        "code": "UuTripmanager.Bricks.Participant.EditModal",
+        "name": "EditModal",
+        "tagList": [
+          "UuTripmanager",
+          "Bricks",
+          "Participant",
+          "EditModal"
+        ],
+        "docCode": "UuTripmanagerBricksParticipantEditModal",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Bricks.Participant.EditModal />"
+      },
+      {
+        "code": "UuTripmanager.Bricks.Trip.DeleteModal",
+        "name": "DeleteModal",
+        "tagList": [
+          "UuTripmanager",
+          "Bricks",
+          "Trip",
+          "DeleteModal"
+        ],
+        "docCode": "UuTripmanagerBricksTripDeleteModal",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuTripmanager.Bricks.Trip.DeleteModal />"
+      }
+    ]
+  },
+  "uu_tripmanager_maing01-server": {}
+}

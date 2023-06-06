@@ -1,0 +1,76 @@
+{
+  "{vendor}-{uuApp}-{uuSubApp}": {
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "realization": "api/controllers/TripmanagerMainController.init",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "defaultUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "tripCreate": {
+        "realization": "api/controllers/TripController.tripCreate",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "tripImage": {
+        "realization": "api/controllers/TripController.getImageData",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "tripGet": {
+        "realization": "api/controllers/TripController.tripGet",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "tripDelete": {
+        "realization": "api/controllers/TripController.tripDelete",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "participantList": {
+        "realization": "api/controllers/ParticipantController.participantList",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "participantGet": {
+        "realization": "api/controllers/ParticipantController.participantGet",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "locationGet": {
+        "realization": "api/controllers/LocationController.locationGet",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "tripAddParticipant": {
+        "realization": "api/controllers/TripController.tripAddParticipant",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "participantUpdate": {
+        "realization": "api/controllers/ParticipantController.participantUpdate",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "sys/uuAppWorkspace/load": {
+        "realization": "api/controllers/TripmanagerMainController.sysUuAppWorkspaceLoad",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "locationList": {
+        "realization": "api/controllers/LocationController.locationList",
+        "httpMethod": "GET",
+        "type": "CMD"
+      }
+    }
+  }
+}

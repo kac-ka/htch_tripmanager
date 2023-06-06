@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\uu_tripmanager_maing01-hi",
+    "\\uu_tripmanager_maing01-hi\\src",
+    "\\uu_tripmanager_maing01-hi\\src\\bricks",
+    "\\uu_tripmanager_maing01-hi\\src\\bricks\\config",
+    "\\uu_tripmanager_maing01-hi\\src\\bricks\\participant",
+    "\\uu_tripmanager_maing01-hi\\src\\bricks\\participant\\config",
+    "\\uu_tripmanager_maing01-hi\\src\\config",
+    "\\uu_tripmanager_maing01-hi\\src\\context",
+    "\\uu_tripmanager_maing01-hi\\src\\core"
+  ],
+  "SelectedNode": "\\uu_tripmanager_maing01-hi\\src\\bricks\\participant\\content.js",
+  "PreviewInSolutionExplorer": false
+}
